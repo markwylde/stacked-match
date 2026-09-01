@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stacked Match - icon sheet</title>
+<style>
+  body { margin:0; font:500 14px/1.4 ui-rounded,system-ui,sans-serif; background:#0d0b16; color:#f4f1ea; }
+  section { background:var(--bg); padding:20px 16px 26px; }
+  h2 { margin:0 0 14px; font-size:18px; }
+  h2 small { font-weight:500; opacity:.55; font-size:12px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(76px,1fr)); gap:12px; }
+  figure { margin:0; text-align:center; }
+  .brick { width:56px; height:56px; margin:0 auto; border-radius:14px; background:var(--brick);
+    display:grid; place-items:center; box-shadow:0 2px 0 rgba(0,0,0,.22),0 6px 14px rgba(0,0,0,.3); }
+  .washed .brick { background:var(--brick-washed); box-shadow:0 0 0 2.5px var(--accent),0 2px 0 rgba(0,0,0,.22); }
+  svg { width:76%; height:76%; overflow:visible; }
+  .f { fill:var(--icon-colour); }
+  .washed .f { fill:var(--accent); }
+  .l { fill:none; stroke:var(--ink); stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
+  figcaption { margin-top:6px; font-size:11px; opacity:.6; }
+  .note { padding:16px; opacity:.65; font-size:12px; }
+  .mono { filter:grayscale(1); }
+  .toggle { position:fixed; right:12px; bottom:12px; padding:10px 16px; border-radius:999px;
+    border:none; background:#ff5fa2; color:#14101c; font:700 13px/1 inherit; cursor:pointer; }
+</style></head><body>
+  <p class="note">Every icon at real brick size. Tap the button to strip colour: each icon must stay
+  identifiable from its outline alone.</p>
+  <section style="--bg:#101f1a;--brick:#f7f4e9;--brick-washed:#ffe6f1;--accent:#ff5fa2;--ink:#123024">
+    <h2>Garden <small>15 icons &middot; first tile shown washed</small></h2>
+    <div class="grid">
+    <figure class="tile washed" style="--icon-colour:#5fbf72">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 4 C 18.5 7 19 14 12 20 C 5 14 5.5 7 12 4 z" class="f"/><path d="M 12 19 L 12 6" class="l"/></svg></div>
+      <figcaption>Leaf</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#8ed081">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8.6 7.6 a 3.4 3.4 0 1 0 6.8 0 a 3.4 3.4 0 1 0 -6.8 0 z M 13 12 a 3.4 3.4 0 1 0 6.8 0 a 3.4 3.4 0 1 0 -6.8 0 z M 8.6 16.4 a 3.4 3.4 0 1 0 6.8 0 a 3.4 3.4 0 1 0 -6.8 0 z M 4.2 12 a 3.4 3.4 0 1 0 6.8 0 a 3.4 3.4 0 1 0 -6.8 0 z" class="f"/><path d="M 9.6 12 a 2.4 2.4 0 1 0 4.8 0 a 2.4 2.4 0 1 0 -4.8 0 z" class="l"/></svg></div>
+      <figcaption>Flower</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#f2c14e">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6.5 9.5 a 5.5 5.5 0 1 0 11 0 a 5.5 5.5 0 1 0 -11 0 z" class="f"/><path d="M 12 14 L 12 20 M 12 17 L 9 15 M 12 16.5 L 15 14.5" class="l"/></svg></div>
+      <figcaption>Tree</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e8845f">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6.5 10 h 6 a 2.5 2.5 0 0 1 2.5 2.5 v 4 a 2.5 2.5 0 0 1 -2.5 2.5 h -6 a 2.5 2.5 0 0 1 -2.5 -2.5 v -4 a 2.5 2.5 0 0 1 2.5 -2.5 z" class="f"/><path d="M 15 13 L 20 9.5 L 20 13.5 M 6.5 10 C 6.5 6 12.5 6 12.5 10" class="l"/></svg></div>
+      <figcaption>Watering can</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#5aa9a3">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 13 C 8 13 5 10 5 6 C 9 6 12 9 12 13 z M 12 13 C 16 13 19 10 19 6 C 15 6 12 9 12 13 z" class="f"/><path d="M 12 20.5 L 12 12" class="l"/></svg></div>
+      <figcaption>Sprout</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#b8d06a">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3.5 12.5 a 8.5 6.5 0 0 1 17 0 z" class="f"/><path d="M 9.5 12.5 V 17.5 a 2.5 2.5 0 0 0 5 0 V 12.5" class="l"/></svg></div>
+      <figcaption>Mushroom</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#5fbf72">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 12 C 7 5 2 7.5 3.5 12.5 C 5 17 10 15.5 12 12 z M 12 12 C 17 5 22 7.5 20.5 12.5 C 19 17 14 15.5 12 12 z" class="f"/><path d="M 12 6 L 12 18" class="l"/></svg></div>
+      <figcaption>Butterfly</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#8ed081">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 7 14 a 5 4.2 0 1 0 10 0 a 5 4.2 0 1 0 -10 0 z" class="f"/><path d="M 9.6 10.8 L 9.6 17.6 M 13 10.2 L 13 18 M 5 8 a 3 2 0 1 0 6 0 a 3 2 0 1 0 -6 0 z M 13 8 a 3 2 0 1 0 6 0 a 3 2 0 1 0 -6 0 z" class="l"/></svg></div>
+      <figcaption>Bee</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#f2c14e">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 20.5 L 7.5 9.5 L 16.5 9.5 z" class="f"/><path d="M 12 9.5 L 12 4.5 M 12 6.5 L 8.5 4.5 M 12 6.5 L 15.5 4.5" class="l"/></svg></div>
+      <figcaption>Carrot</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e8845f">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 7 12 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0 z" class="f"/><path d="M 19 12 L 21.5 12 M 16.95 16.95 L 18.72 18.72 M 12 19 L 12 21.5 M 7.05 16.95 L 5.28 18.72 M 5 12 L 2.5 12 M 7.05 7.05 L 5.28 5.28 M 12 5 L 12 2.5 M 16.95 7.05 L 18.72 5.28" class="l"/></svg></div>
+      <figcaption>Sun</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#5aa9a3">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 7.5 18 A 4.2 4.2 0 0 1 8 9.7 A 5.4 5.4 0 0 1 17.6 11 A 3.6 3.6 0 0 1 16.8 18 z" class="f"/><path d="M 7.5 18 A 4.2 4.2 0 0 1 8 9.7 A 5.4 5.4 0 0 1 17.6 11 A 3.6 3.6 0 0 1 16.8 18 z" class="l"/></svg></div>
+      <figcaption>Cloud</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#b8d06a">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 3.5 C 12 3.5 6 10.5 6 14.5 a 6 6 0 0 0 12 0 C 18 10.5 12 3.5 12 3.5 z" class="f"/></svg></div>
+      <figcaption>Raindrop</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#5fbf72">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8.5 12 a 5.5 5.5 0 1 0 11 0 a 5.5 5.5 0 1 0 -11 0 z" class="f"/><path d="M 4 18.5 H 14 M 4 18.5 C 4 13.5 6.5 11 9.5 11 M 11.8 12 a 2.2 2.2 0 1 0 4.4 0 a 2.2 2.2 0 1 0 -4.4 0 z" class="l"/></svg></div>
+      <figcaption>Snail</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#8ed081">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6 13 a 6 6 0 1 0 12 0 a 6 6 0 1 0 -12 0 z" class="f"/><path d="M 12 7 L 12 19 M 8.4 11.6 a 1 1 0 1 0 2 0 a 1 1 0 1 0 -2 0 z M 13.6 11.6 a 1 1 0 1 0 2 0 a 1 1 0 1 0 -2 0 z M 11 16.8 a 1 1 0 1 0 2 0 a 1 1 0 1 0 -2 0 z" class="l"/></svg></div>
+      <figcaption>Ladybird</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#f2c14e">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 5 8 h 1 a 1 1 0 0 1 1 1 v 10 a 1 1 0 0 1 -1 1 h -1 a 1 1 0 0 1 -1 -1 v -10 a 1 1 0 0 1 1 -1 z M 11.5 8 h 1 a 1 1 0 0 1 1 1 v 10 a 1 1 0 0 1 -1 1 h -1 a 1 1 0 0 1 -1 -1 v -10 a 1 1 0 0 1 1 -1 z M 18 8 h 1 a 1 1 0 0 1 1 1 v 10 a 1 1 0 0 1 -1 1 h -1 a 1 1 0 0 1 -1 -1 v -10 a 1 1 0 0 1 1 -1 z" class="f"/><path d="M 3 12 H 21 M 3 16 H 21" class="l"/></svg></div>
+      <figcaption>Fence</figcaption>
+    </figure>
+    </div>
+  </section>
+  <section style="--bg:#241610;--brick:#fdf3e4;--brick-washed:#ddf6f4;--accent:#3fb8b0;--ink:#3a1f14">
+    <h2>Kitchen <small>15 icons &middot; first tile shown washed</small></h2>
+    <div class="grid">
+    <figure class="tile washed" style="--icon-colour:#e0913f">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 7 9 h 7 a 2 2 0 0 1 2 2 v 5 a 2 2 0 0 1 -2 2 h -7 a 2 2 0 0 1 -2 -2 v -5 a 2 2 0 0 1 2 -2 z" class="f"/><path d="M 16 11 a 3 3 0 0 1 0 5" class="l"/></svg></div>
+      <figcaption>Cup</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#d4614a">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 5.5 14 a 6.5 5 0 1 0 13 0 a 6.5 5 0 1 0 -13 0 z" class="f"/><path d="M 18 12 L 21.5 9.5 M 9.5 9 H 14.5 M 10.8 7.5 a 1.2 1.2 0 1 0 2.4 0 a 1.2 1.2 0 1 0 -2.4 0 z" class="l"/></svg></div>
+      <figcaption>Teapot</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#eec170">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8.8 7 a 3.2 4 0 1 0 6.4 0 a 3.2 4 0 1 0 -6.4 0 z" class="f"/><path d="M 12 11 L 12 20.5" class="l"/></svg></div>
+      <figcaption>Spoon</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#b8703f">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 9.5 h 0 a 1 1 0 0 1 1 1 v 9 a 1 1 0 0 1 -1 1 h 0 a 1 1 0 0 1 -1 -1 v -9 a 1 1 0 0 1 1 -1 z" class="f"/><path d="M 8.5 3.5 L 8.5 8 M 12 3.5 L 12 8 M 15.5 3.5 L 15.5 8 M 8.5 8 a 3.5 3.5 0 0 0 7 0" class="l"/></svg></div>
+      <figcaption>Fork</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#c9a227">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4 13 L 15 4.5 L 16.5 7 L 6 15 z" class="f"/><path d="M 6 15 L 3 19.5" class="l"/></svg></div>
+      <figcaption>Knife</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e5b7a0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6.5 9.5 h 11 a 2 2 0 0 1 2 2 v 5 a 2 2 0 0 1 -2 2 h -11 a 2 2 0 0 1 -2 -2 v -5 a 2 2 0 0 1 2 -2 z" class="f"/><path d="M 3 9.5 H 21 M 10.5 6.5 H 13.5" class="l"/></svg></div>
+      <figcaption>Pot</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e0913f">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4 11 h 16 a 8 8 0 0 1 -16 0 z" class="f"/><path d="M 3 11 H 21" class="l"/></svg></div>
+      <figcaption>Bowl</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#d4614a">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 4 C 16.5 4 19 10 19 13.5 a 7 7 0 0 1 -14 0 C 5 10 7.5 4 12 4 z" class="f"/></svg></div>
+      <figcaption>Egg</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#eec170">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4 12 a 8 6 0 0 1 16 0 v 6 h -16 z" class="f"/><path d="M 8 12.5 L 8 18 M 12 12.5 L 12 18 M 16 12.5 L 16 18" class="l"/></svg></div>
+      <figcaption>Bread</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#b8703f">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3.5 16 L 13 7 L 20.5 7 L 20.5 16 z" class="f"/><path d="M 14.6 12 a 1.4 1.4 0 1 0 2.8 0 a 1.4 1.4 0 1 0 -2.8 0 z M 9.8 14 a 1.2 1.2 0 1 0 2.4 0 a 1.2 1.2 0 1 0 -2.4 0 z" class="l"/></svg></div>
+      <figcaption>Cheese</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#c9a227">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 15.5 h 0 a 1 1 0 0 1 1 1 v 3.5 a 1 1 0 0 1 -1 1 h 0 a 1 1 0 0 1 -1 -1 v -3.5 a 1 1 0 0 1 1 -1 z" class="f"/><path d="M 12 15.5 C 7 13.5 6.5 6.5 12 4.5 M 12 15.5 C 17 13.5 17.5 6.5 12 4.5 M 12 15.5 L 12 4.5" class="l"/></svg></div>
+      <figcaption>Whisk</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e5b7a0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8 8 h 8 a 2.5 2.5 0 0 1 2.5 2.5 v 7 a 2.5 2.5 0 0 1 -2.5 2.5 h -8 a 2.5 2.5 0 0 1 -2.5 -2.5 v -7 a 2.5 2.5 0 0 1 2.5 -2.5 z" class="f"/><path d="M 5 8 H 19 M 8 8 V 5 H 16 V 8" class="l"/></svg></div>
+      <figcaption>Jar</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e0913f">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8 10 h 7 a 3 3 0 0 1 3 3 v 3 a 3 3 0 0 1 -3 3 h -7 a 3 3 0 0 1 -3 -3 v -3 a 3 3 0 0 1 3 -3 z" class="f"/><path d="M 18 13 L 21.5 11 M 8.5 10 C 8.5 5.5 15.5 5.5 15.5 10" class="l"/></svg></div>
+      <figcaption>Kettle</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#d4614a">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3.5 12 a 8.5 8.5 0 1 0 17 0 a 8.5 8.5 0 1 0 -17 0 z" class="f"/><path d="M 6.5 12 a 5.5 5.5 0 1 0 11 0 a 5.5 5.5 0 1 0 -11 0 z" class="l"/></svg></div>
+      <figcaption>Plate</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#eec170">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8.5 10 h 7 a 2.5 2.5 0 0 1 2.5 2.5 v 0 a 2.5 2.5 0 0 1 -2.5 2.5 h -7 a 2.5 2.5 0 0 1 -2.5 -2.5 v 0 a 2.5 2.5 0 0 1 2.5 -2.5 z" class="f"/><path d="M 6 12.5 H 2.5 M 18 12.5 H 21.5" class="l"/></svg></div>
+      <figcaption>Rolling pin</figcaption>
+    </figure>
+    </div>
+  </section>
+  <section style="--bg:#0b1c2e;--brick:#eef7fb;--brick-washed:#ffe9dd;--accent:#ff9451;--ink:#0b2440">
+    <h2>Ocean <small>15 icons &middot; first tile shown washed</small></h2>
+    <div class="grid">
+    <figure class="tile washed" style="--icon-colour:#3aa0c4">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 18 12 C 14 7.5 7 7.5 3.5 12 C 7 16.5 14 16.5 18 12 z M 17.5 12 L 21.5 9 L 21.5 15 z" class="f"/><path d="M 6.1 11 a 0.9 0.9 0 1 0 1.8 0 a 0.9 0.9 0 1 0 -1.8 0 z" class="l"/></svg></div>
+      <figcaption>Fish</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#4fd0c2">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 19 C 5 19 3 12 6 7 C 9 3 15 3 18 7 C 21 12 19 19 12 19 z" class="f"/><path d="M 12 19 L 6.5 8 M 12 19 L 12 4.6 M 12 19 L 17.5 8" class="l"/></svg></div>
+      <figcaption>Shell</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#2e6fa8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 3.5 L 14.35 8.76 L 20.08 9.37 L 15.8 13.24 L 17 18.88 L 12 16 L 7 18.88 L 8.2 13.24 L 3.92 9.37 L 9.65 8.76 z" class="f"/></svg></div>
+      <figcaption>Starfish</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#6fd3e8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 2.6 16 C 5.4 11 9 11 12 16 C 15 21 18.6 21 21.4 16 V 21 H 2.6 z" class="f"/><path d="M 2.6 11 C 5.4 6 9 6 12 11" class="l"/></svg></div>
+      <figcaption>Wave</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#4a7fbd">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 10 5 a 2 2 0 1 0 4 0 a 2 2 0 1 0 -4 0 z" class="f"/><path d="M 12 7 L 12 20 M 7 10 H 17 M 4.5 13.5 a 7.5 7.5 0 0 0 15 0" class="l"/></svg></div>
+      <figcaption>Anchor</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#7ee0c0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3 15 H 21 L 18 20 H 6 z" class="f"/><path d="M 12 15 L 12 4 M 12 6 L 18 12 H 12" class="l"/></svg></div>
+      <figcaption>Boat</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#3aa0c4">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4.5 12 a 7.5 7.5 0 0 1 15 0 z" class="f"/><path d="M 7 12 L 7 17 M 10 12 L 10 19.5 M 14 12 L 14 19.5 M 17 12 L 17 17" class="l"/></svg></div>
+      <figcaption>Jellyfish</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#4fd0c2">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6 13.5 a 6 4.5 0 1 0 12 0 a 6 4.5 0 1 0 -12 0 z" class="f"/><path d="M 6.5 10.5 L 3.5 7 M 17.5 10.5 L 20.5 7 M 6.5 16.5 L 3.5 19.5 M 17.5 16.5 L 20.5 19.5 M 9.1 11.5 a 0.9 0.9 0 1 0 1.8 0 a 0.9 0.9 0 1 0 -1.8 0 z M 13.1 11.5 a 0.9 0.9 0 1 0 1.8 0 a 0.9 0.9 0 1 0 -1.8 0 z" class="l"/></svg></div>
+      <figcaption>Crab</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#2e6fa8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 5.7 5.8 a 1.8 1.8 0 1 0 3.6 0 a 1.8 1.8 0 1 0 -3.6 0 z M 14.7 5.2 a 1.8 1.8 0 1 0 3.6 0 a 1.8 1.8 0 1 0 -3.6 0 z M 10.2 9.5 a 1.8 1.8 0 1 0 3.6 0 a 1.8 1.8 0 1 0 -3.6 0 z" class="f"/><path d="M 12 20.5 L 12 11 M 12 14 L 7.5 9.5 M 12 13 L 16.5 8.5 M 7.5 9.5 L 7.5 7.6" class="l"/></svg></div>
+      <figcaption>Coral</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#6fd3e8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4.5 12 a 7.5 7.5 0 1 0 15 0 a 7.5 7.5 0 1 0 -15 0 z" class="f"/><path d="M 7.7 9.5 a 1.8 1.8 0 1 0 3.6 0 a 1.8 1.8 0 1 0 -3.6 0 z" class="l"/></svg></div>
+      <figcaption>Bubble</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#4a7fbd">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3 13 C 3 8.5 8 6.5 12.5 6.5 C 17 6.5 20 9 20 13 C 20 16.5 16.5 18 12 18 C 7 18 3 16.5 3 13 z" class="f"/><path d="M 12.5 6.5 L 12.5 3 M 6.1 12 a 0.9 0.9 0 1 0 1.8 0 a 0.9 0.9 0 1 0 -1.8 0 z" class="l"/></svg></div>
+      <figcaption>Whale</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#7ee0c0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4.9 19 h 14.2 a 0.9 0.9 0 0 1 0.9 0.9 v 0 a 0.9 0.9 0 0 1 -0.9 0.9 h -14.2 a 0.9 0.9 0 0 1 -0.9 -0.9 v 0 a 0.9 0.9 0 0 1 0.9 -0.9 z" class="f"/><path d="M 8 19 C 5 15 11 12 8 8 C 6 5.5 8 4 8 3.5 M 15 19 C 18 15 12 12 15 8 C 17 5.5 15 4 15 3.5" class="l"/></svg></div>
+      <figcaption>Seaweed</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#3aa0c4">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8.5 20 L 9.5 9 L 14.5 9 L 15.5 20 z" class="f"/><path d="M 8 9 H 16 M 11 4.5 h 2 a 1 1 0 0 1 1 1 v 2.5 a 1 1 0 0 1 -1 1 h -2 a 1 1 0 0 1 -1 -1 v -2.5 a 1 1 0 0 1 1 -1 z M 7 20 H 17" class="l"/></svg></div>
+      <figcaption>Lighthouse</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#4fd0c2">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3.5 12 a 8.5 8.5 0 1 0 17 0 a 8.5 8.5 0 1 0 -17 0 z" class="f"/><path d="M 12 6.5 L 14 12 L 12 17.5 L 10 12 z" class="l"/></svg></div>
+      <figcaption>Compass</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#2e6fa8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6.5 13 a 5.5 5.5 0 1 0 11 0 a 5.5 5.5 0 1 0 -11 0 z" class="f"/><path d="M 3.5 13 a 8.5 8.5 0 0 1 17 0 z" class="l"/></svg></div>
+      <figcaption>Pearl</figcaption>
+    </figure>
+    </div>
+  </section>
+  <section style="--bg:#161129;--brick:#f3effc;--brick-washed:#f7fbdc;--accent:#d9f24e;--ink:#1a1233">
+    <h2>Space <small>15 icons &middot; first tile shown washed</small></h2>
+    <div class="grid">
+    <figure class="tile washed" style="--icon-colour:#8b6fe8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 3.5 L 14.23 8.93 L 20.08 9.37 L 15.61 13.17 L 17 18.88 L 12 15.8 L 7 18.88 L 8.39 13.17 L 3.92 9.37 L 9.77 8.93 z" class="f"/></svg></div>
+      <figcaption>Star</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#c47ae0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 5.5 11 a 6.5 6.5 0 1 0 13 0 a 6.5 6.5 0 1 0 -13 0 z" class="f"/><path d="M 2.7 13.5 a 9.3 2.9 0 1 0 18.6 0 a 9.3 2.9 0 1 0 -18.6 0 z" class="l"/></svg></div>
+      <figcaption>Planet</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#6a7de8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 3 C 15.5 6.5 16.5 11 16.5 14 H 7.5 C 7.5 11 8.5 6.5 12 3 z" class="f"/><path d="M 10 9 a 2 2 0 1 0 4 0 a 2 2 0 1 0 -4 0 z M 7.5 14 L 4.5 18 H 9 M 16.5 14 L 19.5 18 H 15" class="l"/></svg></div>
+      <figcaption>Rocket</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#a75fd0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 16 3.5 A 9 9 0 1 0 16 20.5 A 7 7 0 1 1 16 3.5 z" class="f"/></svg></div>
+      <figcaption>Moon</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#5f8fe8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 12 8 a 4 4 0 1 0 8 0 a 4 4 0 1 0 -8 0 z" class="f"/><path d="M 13 11 L 4 20 M 16 12.5 L 9.5 19.5 M 10.5 9.5 L 4.5 15.5" class="l"/></svg></div>
+      <figcaption>Comet</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#d68ad4">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 10.5 9.5 h 3 a 1 1 0 0 1 1 1 v 3 a 1 1 0 0 1 -1 1 h -3 a 1 1 0 0 1 -1 -1 v -3 a 1 1 0 0 1 1 -1 z" class="f"/><path d="M 3.5 10 h 4 a 1 1 0 0 1 1 1 v 2 a 1 1 0 0 1 -1 1 h -4 a 1 1 0 0 1 -1 -1 v -2 a 1 1 0 0 1 1 -1 z M 16.5 10 h 4 a 1 1 0 0 1 1 1 v 2 a 1 1 0 0 1 -1 1 h -4 a 1 1 0 0 1 -1 -1 v -2 a 1 1 0 0 1 1 -1 z M 12 9.5 L 12 5.5 M 10.5 4 a 1.5 1.5 0 1 0 3 0 a 1.5 1.5 0 1 0 -3 0 z" class="l"/></svg></div>
+      <figcaption>Satellite</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#8b6fe8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3.5 14 a 8.5 3.5 0 1 0 17 0 a 8.5 3.5 0 1 0 -17 0 z" class="f"/><path d="M 7 12.5 a 5 4.5 0 0 1 10 0 M 7.1 14.5 a 0.9 0.9 0 1 0 1.8 0 a 0.9 0.9 0 1 0 -1.8 0 z M 11.1 15 a 0.9 0.9 0 1 0 1.8 0 a 0.9 0.9 0 1 0 -1.8 0 z M 15.1 14.5 a 0.9 0.9 0 1 0 1.8 0 a 0.9 0.9 0 1 0 -1.8 0 z" class="l"/></svg></div>
+      <figcaption>Ufo</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#c47ae0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3 13 L 16 6 L 18 10 L 5 17 z" class="f"/><path d="M 9.5 15 L 9.5 20 M 6 20 H 13" class="l"/></svg></div>
+      <figcaption>Telescope</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#6a7de8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6 10 a 6 6 0 1 0 12 0 a 6 6 0 1 0 -12 0 z" class="f"/><path d="M 8.4 10 a 3.6 3.6 0 0 1 7.2 0 M 7.5 15 L 6 20 M 16.5 15 L 18 20" class="l"/></svg></div>
+      <figcaption>Astronaut</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#a75fd0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 9.5 12 a 2.5 2.5 0 1 0 5 0 a 2.5 2.5 0 1 0 -5 0 z" class="f"/><path d="M 3 12 a 9 4 0 1 0 18 0 a 9 4 0 1 0 -18 0 z M 6.5 12 a 5.5 2.4 0 1 0 11 0 a 5.5 2.4 0 1 0 -11 0 z" class="l"/></svg></div>
+      <figcaption>Galaxy</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#5f8fe8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 9 10 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0 z" class="f"/><path d="M 10 14 L 3.5 20.5 M 13 15.5 L 8 20.5 M 8.5 11.5 L 3.5 15" class="l"/></svg></div>
+      <figcaption>Meteor</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#d68ad4">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 9 12 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 z M 18.6 12 a 1.5 1.5 0 1 0 3 0 a 1.5 1.5 0 1 0 -3 0 z" class="f"/><path d="M 3 12 a 9 4.5 0 1 0 18 0 a 9 4.5 0 1 0 -18 0 z" class="l"/></svg></div>
+      <figcaption>Orbit</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#8b6fe8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 7.5 12 a 4.5 4.5 0 1 0 9 0 a 4.5 4.5 0 1 0 -9 0 z" class="f"/><path d="M 18.5 12 L 21.5 12 M 17.63 15.25 L 20.23 16.75 M 15.25 17.63 L 16.75 20.23 M 12 18.5 L 12 21.5 M 8.75 17.63 L 7.25 20.23 M 6.37 15.25 L 3.77 16.75 M 5.5 12 L 2.5 12 M 6.37 8.75 L 3.77 7.25 M 8.75 6.37 L 7.25 3.77 M 12 5.5 L 12 2.5 M 15.25 6.37 L 16.75 3.77 M 17.63 8.75 L 20.23 7.25" class="l"/></svg></div>
+      <figcaption>Solar flare</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#c47ae0">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3.5 17 a 1.5 1.5 0 1 0 3 0 a 1.5 1.5 0 1 0 -3 0 z M 7.5 9 a 1.5 1.5 0 1 0 3 0 a 1.5 1.5 0 1 0 -3 0 z M 13.5 12 a 1.5 1.5 0 1 0 3 0 a 1.5 1.5 0 1 0 -3 0 z M 17.5 5 a 1.5 1.5 0 1 0 3 0 a 1.5 1.5 0 1 0 -3 0 z" class="f"/><path d="M 5 17 L 9 9 L 15 12 L 19 5" class="l"/></svg></div>
+      <figcaption>Constellation</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#6a7de8">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8 12 a 4 4 0 1 0 8 0 a 4 4 0 1 0 -8 0 z" class="f"/><path d="M 4.5 12 a 7.5 7.5 0 1 0 15 0 a 7.5 7.5 0 1 0 -15 0 z M 2.2 12 a 9.8 9.8 0 1 0 19.6 0 a 9.8 9.8 0 1 0 -19.6 0 z" class="l"/></svg></div>
+      <figcaption>Black hole</figcaption>
+    </figure>
+    </div>
+  </section>
+  <section style="--bg:#20150e;--brick:#faf1e6;--brick-washed:#e6f8e2;--accent:#6fd45f;--ink:#33200f">
+    <h2>Cafe <small>15 icons &middot; first tile shown washed</small></h2>
+    <div class="grid">
+    <figure class="tile washed" style="--icon-colour:#b07a52">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6 8 h 8 a 2 2 0 0 1 2 2 v 6 a 2 2 0 0 1 -2 2 h -8 a 2 2 0 0 1 -2 -2 v -6 a 2 2 0 0 1 2 -2 z" class="f"/><path d="M 16 10.5 a 3.2 3.2 0 0 1 0 5.5 M 3 19.5 H 17" class="l"/></svg></div>
+      <figcaption>Coffee cup</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#d9a06b">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4 16 C 4 10 8 6.5 12 6.5 C 16 6.5 20 10 20 16 C 17 17.5 15 15 12 15 C 9 15 7 17.5 4 16 z" class="f"/><path d="M 9 8.5 L 8.2 14 M 15 8.5 L 15.8 14" class="l"/></svg></div>
+      <figcaption>Croissant</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e8c39e">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4 18 L 12 6 L 20 18 z" class="f"/><path d="M 6.7 14 H 17.3" class="l"/></svg></div>
+      <figcaption>Cake slice</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#a35d4a">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4 12 a 8 8 0 1 0 16 0 a 8 8 0 1 0 -16 0 z" class="f"/><path d="M 9 12 a 3 3 0 1 0 6 0 a 3 3 0 1 0 -6 0 z M 12 4.5 L 12 6.2 M 19 14 L 17.4 13.4 M 6.5 15.5 L 8 14.6" class="l"/></svg></div>
+      <figcaption>Donut</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#c98d8d">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8.5 10 h 7 a 1.5 1.5 0 0 1 1.5 1.5 v 6 a 1.5 1.5 0 0 1 -1.5 1.5 h -7 a 1.5 1.5 0 0 1 -1.5 -1.5 v -6 a 1.5 1.5 0 0 1 1.5 -1.5 z" class="f"/><path d="M 12 10 L 12 5 M 12 5 H 16" class="l"/></svg></div>
+      <figcaption>Tea bag</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#8c6239">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8 10 h 8 a 1.5 1.5 0 0 1 1.5 1.5 v 6 a 1.5 1.5 0 0 1 -1.5 1.5 h -8 a 1.5 1.5 0 0 1 -1.5 -1.5 v -6 a 1.5 1.5 0 0 1 1.5 -1.5 z" class="f"/><path d="M 6.5 10 L 10 6.5 L 21 6.5 L 17.5 10 z" class="l"/></svg></div>
+      <figcaption>Sugar cube</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#b07a52">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6 9 H 16 L 17 19 H 5 z" class="f"/><path d="M 16 11 a 3 3 0 0 1 0 5 M 6 9 L 8 6.5 H 14" class="l"/></svg></div>
+      <figcaption>Milk jug</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#d9a06b">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4 12 a 8 8 0 1 0 16 0 a 8 8 0 1 0 -16 0 z" class="f"/><path d="M 7.9 10 a 1.1 1.1 0 1 0 2.2 0 a 1.1 1.1 0 1 0 -2.2 0 z M 13.4 10.5 a 1.1 1.1 0 1 0 2.2 0 a 1.1 1.1 0 1 0 -2.2 0 z M 9.9 15 a 1.1 1.1 0 1 0 2.2 0 a 1.1 1.1 0 1 0 -2.2 0 z M 14.1 14.8 a 1.1 1.1 0 1 0 2.2 0 a 1.1 1.1 0 1 0 -2.2 0 z" class="l"/></svg></div>
+      <figcaption>Cookie</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e8c39e">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 4.5 9 a 7.5 3.5 0 1 0 15 0 a 7.5 3.5 0 1 0 -15 0 z M 4.5 16 a 7.5 3.5 0 1 0 15 0 a 7.5 3.5 0 1 0 -15 0 z" class="f"/><path d="M 4.5 12.5 H 19.5" class="l"/></svg></div>
+      <figcaption>Macaron</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#a35d4a">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6.5 8 L 17.5 8 L 16 20 L 8 20 z" class="f"/><path d="M 5 8 H 19 M 5 8 L 6 5 H 18 L 19 8" class="l"/></svg></div>
+      <figcaption>Cup to go</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#c98d8d">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6 12 h 12 l -1.5 8 h -9 z" class="f"/><path d="M 5 12 a 7 5 0 0 1 14 0 M 5 12 H 19" class="l"/></svg></div>
+      <figcaption>Muffin</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#8c6239">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 6 12 a 6 8 0 1 0 12 0 a 6 8 0 1 0 -12 0 z" class="f"/><path d="M 12 4 C 8 8 16 16 12 20" class="l"/></svg></div>
+      <figcaption>Coffee bean</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#b07a52">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 7 4 h 10 a 1.5 1.5 0 0 1 1.5 1.5 v 13 a 1.5 1.5 0 0 1 -1.5 1.5 h -10 a 1.5 1.5 0 0 1 -1.5 -1.5 v -13 a 1.5 1.5 0 0 1 1.5 -1.5 z" class="f"/><path d="M 8.5 9 H 15.5 M 8.5 12.5 H 15.5 M 8.5 16 H 13" class="l"/></svg></div>
+      <figcaption>Menu</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#d9a06b">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 3.5 12 a 8.5 8.5 0 1 0 17 0 a 8.5 8.5 0 1 0 -17 0 z" class="f"/><path d="M 12 7 V 12 L 15.5 14" class="l"/></svg></div>
+      <figcaption>Clock</figcaption>
+    </figure>
+    <figure class="tile" style="--icon-colour:#e8c39e">
+      <div class="brick"><svg viewBox="2 2 20 20"><path d="M 8 5 h 8 a 2 2 0 0 1 2 2 v 3 a 2 2 0 0 1 -2 2 h -8 a 2 2 0 0 1 -2 -2 v -3 a 2 2 0 0 1 2 -2 z" class="f"/><path d="M 7 20 L 7 12 M 17 20 L 17 12 M 7 16 H 17" class="l"/></svg></div>
+      <figcaption>Chair</figcaption>
+    </figure>
+    </div>
+  </section>
+  <button class="toggle" onclick="document.body.classList.toggle('mono')">Toggle colour</button>
+</body></html>
