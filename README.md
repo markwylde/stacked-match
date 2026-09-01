@@ -3,7 +3,7 @@
 A calm, colourful stacked brick matching puzzle for the phone. Take the top
 brick of a column, gather three of a kind, and never let the tray fill up.
 
-**[Play it →](https://markwylde.com/game-stackedmatch/)**
+**[Play it →](https://markwylde.com/stacked-match/)**
 
 | Gameplay | Learning it | Campaign |
 | --- | --- | --- |
